@@ -1,0 +1,44 @@
+section#joinBank {
+  background: var(--color-fifth);
+}
+
+.join__bank-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+  color: var(--color-white);
+}
+
+@media screen and (max-width: 600px) {
+  .join__bank-container h1 {
+    font-size: 1.4rem;
+  }
+
+  .join__bank-container .join__bank-link {
+    font-size: 0.8rem;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 314px) {
+  .join__bank-container .join__bank-link {
+    font-size: 0;
+    width: 170px;
+  }
+
+  .join__bank-container .join__bank-link::before {
+    content: "Open account";
+    position: absolute;
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

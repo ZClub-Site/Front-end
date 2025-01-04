@@ -1,0 +1,39 @@
+.modal__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--color-bg);
+}
+
+.modal {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+.modal h2 {
+  margin-bottom: 20px;
+  color: var(--color-primary);
+}
+
+.form__box input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 15px;
+  border: 1px solid var(--color-site);
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.login-link {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.login-link a {
+  color: var(--color-primary);
+}

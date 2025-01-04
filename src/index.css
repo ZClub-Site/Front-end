@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --color-bg: #f3f3f3;
+  --color-site: #444;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-primary: #5ec576;
+  --color-primary-darker: #37a86a;
+  --color-primary-opacity: #5ec5763a;
+  --color-secondary: #ffcb03;
+  --color-secondary-darker: #ffbb00;
+  --color-secondary-opacity: #ffcd0331;
+  --color-tertiary: #ff585f;
+  --color-tertiary-darker: #fd424b;
+  --color-tertiary-opacity: #ff58602d;
+  --color-fourth: #666;
+  --color-fifth: #222222;
+  --footer-bg: #37383d;
+
+  --container-width-lg: 76%;
+  --container-width-md: 90%;
+  --container-width-sm: 94%;
+
+  --transition: all 400ms ease;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary-darker);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--color-site);
+  background: var(--color-bg);
+  line-height: 1.7;
+}
+
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+section {
+  padding: 6rem 0;
+}
+
+section > h2 {
+  margin-bottom: 0.8rem;
+  padding-left: 25%;
+  color: var(--color-primary);
+}
+
+section > p {
+  padding-left: 25%;
+}
+
+h1,
+h2,
+h4 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+a {
+  color: var(--color-site);
+  transition: var(--transition);
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--color-primary);
+  color: var(--color-white);
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  border-radius: 2rem;
+  font-weight: 500;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: transparent;
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  section {
+    margin-top: 5rem;
+  }
+
+  section > h2,
+  section > p {
+    padding: 0;
+    text-align: center;
+  }
+
+  section > p {
+    padding: 0 0.5rem;
+  }
+}
