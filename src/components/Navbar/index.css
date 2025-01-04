@@ -15,14 +15,13 @@ nav {
 }
 
 .window-scroll ul button {
-  /*border-color: var(--color-white);*/
+  border-color: var(--color-white);
   color: var(--color-white);
 
 }
 
 .window-scroll ul button:hover {
   background: var(--color-bg);
-  border-color: var(--color-bg);
 }
 
 .nav__container {
