@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { AiOutlineBars } from "react-icons/ai";
 import { MdOutlineClose } from "react-icons/md";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/logo.jpg";
 import "./index.css";
 
 const Navbar = () => {
