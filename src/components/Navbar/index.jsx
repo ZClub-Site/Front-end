@@ -69,31 +69,32 @@ const Navbar = () => {
           <img src={Logo} alt="Logo" />
         </a>
         <ul className={`nav__menu ${isNavMenuOpen ? "nav__menu" : ""}  `}>
+
           <li>
-            <a href="#features" className="nav__link">
-              Features
+            <a href="#testimonials" className="nav__link">
+              نظرات
             </a>
           </li>
           <li>
             <a href="#operations" className="nav__link">
-              Operations
+              اهداف
             </a>
           </li>
           <li>
-            <a href="#testimonials" className="nav__link">
-              Testimonials
+            <a href="#features" className="nav__link">
+              ویژگی ها
             </a>
           </li>
           <li>
             <button className="btn">
               <Link to="/register" className="registerBtn">
-                Open account
+                ثبت نام
               </Link>
             </button>
           </li>
         </ul>
         <button id="open-menu-btn" onClick={toggleNavMenu}>
-          <AiOutlineBars className="open__menu" />
+          <AiOutlineBars className="open__menu"/>
         </button>
         <button id="close-menu-btn" onClick={toggleNavMenu}>
           <MdOutlineClose className="close__menu" />

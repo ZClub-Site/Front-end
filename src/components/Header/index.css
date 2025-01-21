@@ -4,6 +4,12 @@ header {
   overflow: hidden;
   height: calc(100vh - 5rem);
   margin-bottom: 5rem;
+direction: rtl;
+  font-family: "B Yekan";
+}
+
+header img {
+  /*border-radius: 50%;*/
 }
 
 .header__container {
@@ -16,6 +22,8 @@ header {
 
 .header__left p {
   margin: 1rem 0 2.4rem;
+  /*font-weight: bold;*/
+  line-height: 1.6;
 }
 
 .header__left a {

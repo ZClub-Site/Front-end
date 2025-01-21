@@ -15,11 +15,11 @@ const Testimonial = () => {
   const progressContent = useRef(null);
   const onAutoplayTimeLeft = (s, time, progress) => {
     progressCircle.current.style.setProperty("--progress", 1 - progress);
-    progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
+    progressContent.current.textContent = `${Math.ceil(time / 1000)}`;
   };
   return (
     <section id="testimonials">
-      <h2>Not sure yet?</h2>
+      <h2>نظرات</h2>
       <p>Millions of Bankists are already making their lifes simpler.</p>
       <div className="container testimonials__container">
         <Swiper
@@ -35,6 +35,94 @@ const Testimonial = () => {
           }}
           onAutoplayTimeLeft={onAutoplayTimeLeft}
         >
+          <SwiperSlide className="testimonial">
+            <div className="testimonial__info">
+              <h4>Best financial decision ever!</h4>
+              <p>
+                Debitis, nihil sit minus suscipit magni aperiam vel tenetur
+                incidunt commodi architecto numquam omnis nulla autem,
+                necessitatibus blanditiis modi similique quidem. Odio aliquam
+                culpa dicta beatae quod maiores ipsa minus consequatur error
+                sunt, deleniti saepe aliquid quos inventore sequi.
+                Necessitatibus id alias reiciendis, perferendis facere.
+              </p>
+            </div>
+            <div className="testimonial__person">
+              <div className="avatar">
+                <img src={AVTR1} />
+              </div>
+              <div className="person__info">
+                <h4>Aarav Lynn</h4>
+                <small>San Francisco, USA</small>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="testimonial">
+            <div className="testimonial__info">
+              <h4>Best financial decision ever!</h4>
+              <p>
+                Debitis, nihil sit minus suscipit magni aperiam vel tenetur
+                incidunt commodi architecto numquam omnis nulla autem,
+                necessitatibus blanditiis modi similique quidem. Odio aliquam
+                culpa dicta beatae quod maiores ipsa minus consequatur error
+                sunt, deleniti saepe aliquid quos inventore sequi.
+                Necessitatibus id alias reiciendis, perferendis facere.
+              </p>
+            </div>
+            <div className="testimonial__person">
+              <div className="avatar">
+                <img src={AVTR1} />
+              </div>
+              <div className="person__info">
+                <h4>Aarav Lynn</h4>
+                <small>San Francisco, USA</small>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="testimonial">
+            <div className="testimonial__info">
+              <h4>Best financial decision ever!</h4>
+              <p>
+                Debitis, nihil sit minus suscipit magni aperiam vel tenetur
+                incidunt commodi architecto numquam omnis nulla autem,
+                necessitatibus blanditiis modi similique quidem. Odio aliquam
+                culpa dicta beatae quod maiores ipsa minus consequatur error
+                sunt, deleniti saepe aliquid quos inventore sequi.
+                Necessitatibus id alias reiciendis, perferendis facere.
+              </p>
+            </div>
+            <div className="testimonial__person">
+              <div className="avatar">
+                <img src={AVTR1} />
+              </div>
+              <div className="person__info">
+                <h4>Aarav Lynn</h4>
+                <small>San Francisco, USA</small>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="testimonial">
+            <div className="testimonial__info">
+              <h4>Best financial decision ever!</h4>
+              <p>
+                Debitis, nihil sit minus suscipit magni aperiam vel tenetur
+                incidunt commodi architecto numquam omnis nulla autem,
+                necessitatibus blanditiis modi similique quidem. Odio aliquam
+                culpa dicta beatae quod maiores ipsa minus consequatur error
+                sunt, deleniti saepe aliquid quos inventore sequi.
+                Necessitatibus id alias reiciendis, perferendis facere.
+              </p>
+            </div>
+            <div className="testimonial__person">
+              <div className="avatar">
+                <img src={AVTR1} />
+              </div>
+              <div className="person__info">
+                <h4>Aarav Lynn</h4>
+                <small>San Francisco, USA</small>
+              </div>
+            </div>
+          </SwiperSlide>
           <SwiperSlide className="testimonial">
             <div className="testimonial__info">
               <h4>Best financial decision ever!</h4>

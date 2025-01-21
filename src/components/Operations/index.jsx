@@ -43,7 +43,7 @@ const Operations = () => {
 
   return (
     <section id="operations">
-      <h2>Operations</h2>
+      <h2>اهداف</h2>
       <p>Everything as simple as possible, but no simpler.</p>
       <div className="container operation__container">
         <div className="content">

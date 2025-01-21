@@ -1,3 +1,4 @@
+
 .testimonial {
   padding: 2rem 5rem;
   margin-top: 3rem;
@@ -27,6 +28,11 @@
 
 .testimonial p {
   margin: 2rem 0;
+}
+
+
+#testimonials > h2 , p {
+direction: rtl;
 }
 
 .swiper {

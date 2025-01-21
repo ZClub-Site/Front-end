@@ -1,3 +1,7 @@
+#features{
+  direction: rtl;
+
+}
 .features__container {
   display: grid;
   grid-template-columns: 1fr;

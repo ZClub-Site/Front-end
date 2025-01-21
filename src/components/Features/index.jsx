@@ -22,7 +22,8 @@ import "./index.css";
 const Features = () => {
   return (
     <section id="features">
-      <h2>Features</h2>
+      <h2>ویژگی ها
+      </h2>
       <p>Everything you need in a modern bank and more</p>
       <div className="container features__container">
         <article className="features">
@@ -35,12 +36,9 @@ const Features = () => {
             <span>
               <SlScreenDesktop className="icon" />
             </span>
-            <h4>100% digital bank</h4>
+            <h4>شبکه سازی</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-              alias sint quos? Accusantium a fugiat porro reiciendis saepe
-              quibusdam debitis ducimus.
-            </p>
+              زد کلاب محیطی تعاملی و پویا ایجاد می‌کند که در آن افراد بتوانند با یکدیگر ارتباط برقرار کنند و از دانش و تجربیات هم بهره‌مند شوند. این ارتباطات باعث تقویت روابط حرفه‌ای و شخصی شده و فرصت‌های همکاری و شراکت‌های کاری را افزایش می‌دهد. اعضا در این فضا می‌توانند ایده‌های خلاقانه خود را مطرح کنند و بازخورد سازنده دریافت کنند. شبکه‌سازی همچنین به گسترش دسترسی به منابع، افراد و اطلاعات کلیدی کمک می‌کند. هدف اصلی ایجاد یک جامعه حمایتی است که رشد و توسعه اعضا را تسهیل کند.            </p>
           </div>
         </article>
 
@@ -49,7 +47,7 @@ const Features = () => {
             <span>
               <PiArrowUpRight className="icon" />
             </span>
-            <h4>Watch your money grow</h4>
+            <h4>آموزش باکیفیت</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
               alias sint quos? Accusantium a fugiat porro reiciendis saepe
@@ -73,7 +71,7 @@ const Features = () => {
             <span>
               <LuCreditCard className="icon" />
             </span>
-            <h4>Free debit card included</h4>
+            <h4>جلسات انتقال تجربه</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
               alias sint quos? Accusantium a fugiat porro reiciendis saepe

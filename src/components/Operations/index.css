@@ -1,3 +1,7 @@
+#operations{
+  direction: rtl;
+
+}
 .operation__container {
   padding-top: 5rem;
 }
